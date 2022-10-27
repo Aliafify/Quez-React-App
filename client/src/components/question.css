@@ -1,0 +1,23 @@
+.q-cont{
+    width:100%
+}
+.q-text{
+    font-size: 2vw;
+    text-align: left;
+    padding: 7px;
+}
+.q-text span{
+    text-transform: uppercase;  
+    display: block;
+    text-align: center;
+}
+@media  screen and (max-width:900px) {
+    .q-text{font-size:25px}
+    /* .q-text span{
+  
+    } */
+    .q-text h2{
+        display: block;
+        text-align:center;
+    }
+}

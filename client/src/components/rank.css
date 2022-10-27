@@ -1,0 +1,10 @@
+.rank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rank-text{
+    text-align: center;
+    font-size: 40px;
+}
