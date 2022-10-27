@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Buttons({ submitAnswer, next ,disable}) {
+function Buttons({ submitAnswer, next, disable }) {
   const [show, setShow] = useState(false);
 
   return (

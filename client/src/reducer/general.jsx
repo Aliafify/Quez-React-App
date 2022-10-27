@@ -5,9 +5,8 @@ export const general =(state={rank:null,order:0,correct:0},action)=>{
         case SET_RANK:
             return state ={...state,rank:action.rank}
         case NEXT_QS:
-            return {...state,order:state.order+1,result:""}
+            return {...state,order:state.order+1}
             case NEW_TRY:
-            console.log("reducer")
             return{...state,order:0}
         case CORRECT_ANSWERS:
             return {...state,correct:state.correct+1}

@@ -39,7 +39,6 @@ export const nextQS=()=>{
    }
 }
 export const Correct_Answers=()=>{
-   console.log('iam here')
    return(dispatch)=>{
      return dispatch(correctAnswers())
    }
